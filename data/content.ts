@@ -254,6 +254,35 @@ export const PORTFOLIO: PortfolioProject[] = [
     iconColor: "text-amber-400",
     image: "/portfolio/wattwise.jpg",
   },
+  {
+    id: "cateringmarkesot",
+    name: "Catering Markesot",
+    category: "Web-Based Catering Management Platform",
+    platform: "Web",
+    period: "Februari 2026 – Juni 2026",
+    tech: [
+      "Laravel 12",
+      "Filament PHP",
+      "Tailwind CSS",
+      "MySQL",
+      "Vite",
+      "Google OAuth",
+    ],
+    desc: "Platform manajemen katering modern yang menghubungkan pelanggan dan administrator dalam satu sistem terintegrasi. Platform ini mendukung pemesanan online, verifikasi pembayaran, pelacakan pesanan, manajemen menu, serta manajemen operasional.",
+    features: [
+      "Pemesanan online & keranjang belanja",
+      "Login, registrasi & Google Sign-In",
+      "Reset password dengan Email OTP",
+      "Pelacakan status pesanan real-time",
+      "Manajemen menu, pesanan & pengguna admin",
+      "Verifikasi pembayaran & pengaturan perusahaan",
+      "Ekspor laporan Excel & log aktivitas admin",
+    ],
+    gradient: "from-orange-500/20 to-amber-500/5",
+    icon: Globe,
+    iconColor: "text-orange-400",
+    image: "/portfolio/markesot.jpg",
+  },
 ];
 
 // ── Team ────────────────────────────────────────────────────
