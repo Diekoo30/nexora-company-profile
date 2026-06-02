@@ -9,6 +9,8 @@ export interface ContactInfo {
   address: string;
   phone: string;
   website: string;
+  whatsapp?: string;
+  instagram?: string;
 }
 
 /** Top-level company data */

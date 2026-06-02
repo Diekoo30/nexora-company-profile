@@ -41,7 +41,9 @@ export const COMPANY: CompanyData = {
   contact: {
     address: "Jl. Mastrip, Krajan Timur, Sumbersari, Jember",
     phone: "085142487749",
-    website: "www.NexoraTechnology.com",
+    website: "nexora-company-profile-one.vercel.app",
+    whatsapp: "https://wa.me/6285142487749",
+    instagram: "https://www.instagram.com/nexora.tech.tif?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
 };
 
