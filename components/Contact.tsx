@@ -2,34 +2,6 @@ import { Phone, MapPin, Globe } from "lucide-react";
 import Section from "@/components/ui/Section";
 import { COMPANY } from "@/data/content";
 
-const WhatsAppIcon = ({ className }: { className?: string }) => (
-  <svg
-    className={className}
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.739-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.449 5.49 0 9.951-4.462 9.955-9.955.002-2.661-1.03-5.163-2.905-7.039C16.446 1.733 13.948.7 11.288.7 5.795.7 1.333 5.161 1.329 10.655c-.001 1.565.413 3.097 1.2 4.453l-.994 3.635 3.738-.981c1.312.715 2.766 1.092 4.374 1.092zm8.93-6.52c-.312-.156-1.848-.912-2.134-1.017-.286-.104-.494-.156-.701.156-.208.313-.807.156-.99.365-.182.21-.364.23-.676.073-.312-.156-1.316-.486-2.507-1.549-.926-.826-1.552-1.847-1.733-2.16-.182-.313-.02-.482.136-.638.14-.14.312-.365.468-.547.156-.182.208-.313.312-.52.104-.21.052-.392-.026-.548-.078-.156-.701-1.688-.96-2.313-.252-.607-.51-.523-.7-.533l-.597-.01c-.208 0-.546.078-.832.392-.286.313-1.092 1.068-1.092 2.604 0 1.536 1.118 3.02 1.274 3.23.156.21 2.2 3.359 5.328 4.709.744.321 1.325.513 1.777.656.748.238 1.43.204 1.968.124.6-.09 1.848-.756 2.108-1.485.26-.73.26-1.355.182-1.486-.078-.13-.286-.208-.598-.364z" />
-  </svg>
-);
-
-const InstagramIcon = ({ className }: { className?: string }) => (
-  <svg
-    className={className}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-  </svg>
-);
-
 export default function Contact() {
   return (
     <Section id="kontak" className="border-t border-white/5 relative overflow-hidden">
@@ -56,8 +28,13 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-5 rounded-2xl bg-white/5 hover:bg-emerald-500/10 border border-white/10 hover:border-emerald-500/30 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500"
               >
-                <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 group-hover:bg-emerald-500 group-hover:text-black transition-colors duration-300">
-                  <WhatsAppIcon className="w-5 h-5" />
+                <div className="p-2.5 rounded-xl bg-emerald-500/10 group-hover:bg-emerald-500/20 transition-colors duration-300 shrink-0">
+                  <img
+                    src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/whatsapp.png"
+                    alt="WhatsApp logo"
+                    className="w-6 h-6 object-contain group-hover:scale-110 transition-transform duration-300 select-none pointer-events-none"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-white font-semibold group-hover:text-emerald-400 transition-colors duration-300 text-sm">
@@ -76,8 +53,13 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 p-5 rounded-2xl bg-white/5 hover:bg-pink-500/10 border border-white/10 hover:border-pink-500/30 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500"
               >
-                <div className="p-3 rounded-xl bg-pink-500/10 text-pink-400 group-hover:bg-pink-500 group-hover:text-white transition-colors duration-300">
-                  <InstagramIcon className="w-5 h-5" />
+                <div className="p-2.5 rounded-xl bg-pink-500/10 group-hover:bg-pink-500/20 transition-colors duration-300 shrink-0">
+                  <img
+                    src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/instagram.png"
+                    alt="Instagram logo"
+                    className="w-6 h-6 object-contain group-hover:scale-110 transition-transform duration-300 select-none pointer-events-none"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-white font-semibold group-hover:text-pink-400 transition-colors duration-300 text-sm">
