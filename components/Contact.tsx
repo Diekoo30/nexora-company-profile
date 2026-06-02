@@ -30,7 +30,7 @@ export default function Contact() {
               >
                 <div className="p-2.5 rounded-xl bg-emerald-500/10 group-hover:bg-emerald-500/20 transition-colors duration-300 shrink-0">
                   <img
-                    src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/whatsapp.png"
+                    src="/logo/whatsapp.png"
                     alt="WhatsApp logo"
                     className="w-6 h-6 object-contain group-hover:scale-110 transition-transform duration-300 select-none pointer-events-none"
                     loading="lazy"
@@ -55,7 +55,7 @@ export default function Contact() {
               >
                 <div className="p-2.5 rounded-xl bg-pink-500/10 group-hover:bg-pink-500/20 transition-colors duration-300 shrink-0">
                   <img
-                    src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/instagram.png"
+                    src="/logo/instagram.png"
                     alt="Instagram logo"
                     className="w-6 h-6 object-contain group-hover:scale-110 transition-transform duration-300 select-none pointer-events-none"
                     loading="lazy"
